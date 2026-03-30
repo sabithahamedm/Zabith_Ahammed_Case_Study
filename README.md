@@ -10,6 +10,7 @@ High-Level Architecture
 -----------------------
 
 The following diagram illustrates the flow from application log generation to immutable storage and automated incident response.
+
 ```mermaid
 graph LR
     subgraph "Application Account (Production)"
@@ -33,6 +34,7 @@ graph LR
     style E fill:#f96,stroke:#333,stroke-width:2px
     style F fill:#dfd,stroke:#333,stroke-width:2px
     style I fill:#f66,stroke:#333,stroke-width:2px
+
 
 Reliability: At-Least-Once Delivery & Retries
 ---------------------------------------------

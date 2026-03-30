@@ -10,6 +10,7 @@ High-Level Architecture
 -----------------------
 
 The following diagram illustrates the flow from application log generation to immutable storage and automated incident response.
+```mermaid
 graph LR
     subgraph "Application Account (Production)"
         A[App / Lambda] -->|JSON Logs| B(CloudWatch Logs)
